@@ -37,7 +37,7 @@ filepath = r'C:\Users\mutth\study\Final Project\system_verilog_testbench_generat
 Execute the script using Python:
 
 ```bash
-python generate_testbench.py
+python main.py
 ```
 
 The script will parse the System Verilog file, generate test vectors, monitor outputs, and create a testbench. The generated testbench will be saved in the same directory as the System Verilog file with the name `generated_testbench.sv`.
